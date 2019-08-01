@@ -3,15 +3,13 @@ package xyz.hxz1216.jyparking.model;
 public class Role {
 	private Integer rId;
 	private  String roleName;
-	private  Integer menberOrNot;
 
 	public Role() {
 	}
 
-	public Role(Integer rId, String roleName, Integer menberOrNot) {
+	public Role(Integer rId, String roleName) {
 		this.rId = rId;
 		this.roleName = roleName;
-		this.menberOrNot = menberOrNot;
 	}
 
 	public Integer getrId() {
@@ -28,13 +26,5 @@ public class Role {
 
 	public void setRoleName(String roleName) {
 		this.roleName = roleName;
-	}
-
-	public Integer getMenberOrNot() {
-		return menberOrNot;
-	}
-
-	public void setMenberOrNot(Integer menberOrNot) {
-		this.menberOrNot = menberOrNot;
 	}
 }

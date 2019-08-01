@@ -13,11 +13,13 @@ private String userName;
 	private Date birth;
 	private Integer roleId;
 	private  String email;
+	private double balance;
+	private int menberOrNot;
 
 	public User() {
 	}
 
-	public User(Integer uId, String userName, String loginPassword, String loginName, String phone, Integer sex, Date birth, Integer roleId, String email) {
+	public User(Integer uId, String userName, String loginPassword, String loginName, String phone, Integer sex, Date birth, Integer roleId, String email, double balance, int menberOrNot) {
 		this.uId = uId;
 		this.userName = userName;
 		this.loginPassword = loginPassword;
@@ -27,6 +29,24 @@ private String userName;
 		this.birth = birth;
 		this.roleId = roleId;
 		this.email = email;
+		this.balance = balance;
+		this.menberOrNot = menberOrNot;
+	}
+
+	public int getMenberOrNot() {
+		return menberOrNot;
+	}
+
+	public void setMenberOrNot(int menberOrNot) {
+		this.menberOrNot = menberOrNot;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
 	}
 
 	public Integer getuId() {
