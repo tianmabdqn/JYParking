@@ -38,7 +38,7 @@ public class WelcomeController {
 			}
 		}
 		//返回登录页面
-		return "login";
+		return "reception/login";
 	}
 
 }

@@ -19,7 +19,7 @@ public class UserController {
 
 	@RequestMapping("/toIndex.html")
 	public String LoginVerification(){
-		return "index";
+		return "reception/index";
 	}
 
 	/**
@@ -42,11 +42,13 @@ public class UserController {
 				cookieVerification.addCoookieUser(response,user.getLoginName(),user.getLoginPassword());
 			}
 			//校验成功返回主页面
-			return "index";
+			return "reception/index";
 		}else{
 			//如果登录校验失败返回登录页面+
-			return "login";
+			return "reception/login";
 		}
 	}
+
+
 
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+    <meta name="author" content="Vincent Garreau"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>极易共享停车注册账号</title>
+    <script th:src="@{/webjars/jquery/3.3.1/jquery.min.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/partilces/style.css}">
+
+    <link rel="stylesheet" th:href="@{/css/regdit/font-awesome.min.css}" >
+    <link rel="stylesheet" th:href="@{/css/regdit/style.css}"  >
+</head>
+<body >
+<div id="particles-js"></div>
+    <div class="signupform">
+        <h1>Interior Register Form</h1>
+        <div class="container">
+
+            <div class="agile_info">
+                <div class="w3l_form">
+                    <div class="left_grid_info">
+                        <h3>欢迎 !</h3>
+                        <h4>Lorem ipsum dolor sit amet, nulla consectetur adipiscing elit Sed.</h4>
+                        <p> Nam eleifend velit eget dolor vestibulum ornare. Vestibulum est nulla, fermentum eget euismod et, tincidunt at dui. Nulla tellus nisl, semper id justo vel, rutrum finibus risus. Cras vel auctor odio.</p>
+                        <ul class="social_section_1info">
+                            <li><a href="#" class="w3_facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="w3_twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="w3_instagram"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#" class="w3_google"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="w3_pinterest"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#" class="w3_vimeo"><i class="fa fa-vimeo"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w3_info">
+                    <h2>Create An Account</h2>
+                    <p>Vestibulum est nulla, fermentum eget euismod et, tincidunt at dui dolor sit.</p>
+                    <form action="#" method="post">
+                        <div class="input-group">
+                            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <input type="text" placeholder="First Name" required="">
+                        </div>
+                        <div class="input-group">
+                            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                            <input type="text" placeholder="Last Name" required="">
+                        </div>
+                        <div class="input-group">
+                            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <input type="email" placeholder="Email" required="">
+                        </div>
+                        <div class="input-group">
+                            <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+                            <input type="Password" placeholder="Password" required="">
+                        </div>
+                        <div class="input-group">
+                            <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+                            <input type="Password" placeholder="Confirm Password" required="">
+                        </div>
+                        <input type="checkbox" value="remember-me" /> <h4>Send me latest updates </h4>
+                        <button class="btn btn-danger btn-block" type="submit">Create Account</button >
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+        <div class="footer">
+
+            <p>Copyright &copy; 2018.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+        </div>
+    </div>
+<script th:src="@{/js/particles/particles.js}"></script>
+<script th:src="@{/js/particles/app.js}"></script>
+
+<!-- stats.js -->
+<script th:src="@{/js/particles/stats.js}"></script>
+<script>
+
+</script>
+</body>
+</html>
